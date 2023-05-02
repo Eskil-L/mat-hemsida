@@ -1,0 +1,113 @@
+/* makes navbar cover entire top of screen */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+/* removes dots from the navbar list */
+ul {
+    list-style-type: none;
+  }
+/* aligns containers */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* link apperance */
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* hover color */
+a:hover {
+    color: lightblue;
+  }
+  /*navbar apperance */
+.navbar {   
+    background: #34d168c7;
+    color: #fff;
+    height: 60px;
+  }
+/* name textsize */
+.navbar .logo {
+    font-size: x-large;
+    font-weight: bold;
+  }
+/* aligns navbar */
+.navbar ul {
+    display: flex;
+  }
+
+/* space between buttons on navbar */
+.navbar ul li {
+    margin-left: 20px;
+  }
+ 
+/* general container alignment */ 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+/* container box attributes */
+.container .box {
+    flex: 1;
+    background: #57a85b;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+  }
+
+/* right screen dimensions */
+.screen-right{
+    display: flex;
+    max-width: 50%;
+    min-width: 50%;
+
+
+}
+/* left screen dimensions */
+.screen-left{
+    display: flex;
+    max-width: 50%;
+    min-width: 50%;
+
+}
+
+/* divides screen */
+.display{
+    display: flex;
+    align-items: center;
+}
+/* button outline and color */
+button {
+    border-radius: 12px;
+    padding: 10px 10px;
+    background-color: #57a85b;
+}
+
+/* aligns  */
+.Order-table{
+    display: flex;
+    margin: 5px;
+    justify-content: space-evenly;
+}
+
+/* column space in order box */
+td, th {
+    padding-left: 15px;
+    text-align: left;
+  }
+
+/* aligns h2 in order box */
+.my-order{
+    display: flex;
+    justify-content: center;
+}

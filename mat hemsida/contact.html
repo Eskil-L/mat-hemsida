@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+        <img src="placeholder.png" width="60px">
+          <div class="logo">Restaurant Placeholder </div>
+          <ul class="nav">
+            <li>
+                <button>
+                    <a href="index.html">Home</a>
+                </button>
+            </li>
+            <li>
+                <button>
+                    <a href="menu.html">Menu</a>
+                </button>
+            </li>
+            <li>
+                <button>
+                    <a href="contact.html">Contact</a>
+                </button>
+            </li>
+            <li>
+                <button>
+                    <a href="order.html">Order</a>
+                </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- contact form -->
+      <form>
+        <h1>Contact</h1>
+        <fieldset>
+            <legend>Name</legend>
+            <br>
+            <label for="fname">Name</label><br>
+            <input type="text" name="fname" id="fname"><br>
+            <br>
+            <label for="mail">Email adress</label><br>
+            <input type="text" name="mail" id="mail"><br>
+            <br>
+            <label for="pnumber">Phone number</label><br>
+            <input type="text" name="pnumber" id="pnumber"><br>
+            <br>
+        </fieldset>
+        <!-- aks for membership and extra feedback -->
+        <fieldset>
+            <legend>Are you a member?</legend>
+
+            <input type="radio" name="yes-no" id="yes"></input>
+            <label for="yes">Yes</label><br>
+
+            <input type="radio" name="yes-no" id="no"></input>
+            <label for="no">No</label><br>
+
+            <legend>If not would you like to register?</legend>
+
+            <input type="radio" name="Yes-No" id="Yes"></input>
+            <label for="Yes">Yes</label><br>
+
+            <input type="radio" name="Yes-No" id="No"></input>
+            <label for="No">No</label><br>
+
+            <p>Extra feedback</p>
+            <textarea id="textarea" rows="4" cols="30"></textarea>
+        </fieldset>
+        <br>
+        <!-- submit and reset buttons -->
+        <input type="button" value="Submit" ></input>
+
+        <input type="button" value="reset" ></input>
+
+    </form>
+</div>
+</body>
+</html>
